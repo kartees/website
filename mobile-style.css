@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+  .section-1 .row .col-md-4 {
+    padding-left: 3rem;
+  }
+  .section-1 .row .col-md-4 .h4 {
+    padding-left: 3rem;
+  }
+
+  .section-2 .row .col-md-4 {
+    padding-left: 3rem;
+  }
+
+  footer .col-md-4 {
+    padding-left: 3rem;
+  }
+  .section-2 .cover {
+    background-position: -25vmin;
+  }
+  .numbers .rect {
+    width: 10rem;
+    height: 8rem;
+  }
+  .numbers .rect h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .section-1 .row .col-md-4 {
+    margin-left: 4vmin;
+  }
+
+  .section-2 .row .col-md-4 {
+    margin-left: 4vmin;
+  }
+  footer .col-md-4 {
+    margin-left: 4vmin;
+  }
+}
